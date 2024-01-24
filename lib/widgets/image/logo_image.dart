@@ -22,8 +22,7 @@ class MyLogo extends StatelessWidget {
     return SvgPicture.asset(
       logo.path,
       width: length,
-      height: length,
-      color: color,
+      height: length
     );
   }
 }
