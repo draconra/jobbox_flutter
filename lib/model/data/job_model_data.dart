@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../model/job.dart';
-import '../model/skill.dart';
+import '../../model/job.dart';
+import '../../model/skill.dart';
 import './data.dart';
 
 class JobModelData with ChangeNotifier {

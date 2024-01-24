@@ -5,9 +5,8 @@ import '../../../util/theme/icons.dart';
 import '../authentication/login_screen.dart';
 import './job_listing/job_listing_screen.dart';
 import './applied_jobs/applied_jobs_screen.dart';
-import './profile/profile_screen.dart';
+import './user_profile/user_profile_screen.dart';
 import '../../../widgets/image/icon_image.dart';
-
 import '../../../model/data/user_model_data.dart';
 
 enum TabScreens { jobListing, appliedJobs, profile }
@@ -44,7 +43,7 @@ class _HomeState extends State<Home> {
       case TabScreens.appliedJobs:
         return const AppliedJobsScreen();
       case TabScreens.profile:
-        return const ProfileScreen();
+        return const UserProfileScreen();
     }
   }
 

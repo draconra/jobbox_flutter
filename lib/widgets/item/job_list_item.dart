@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../../util/theme/icons.dart';
-
 import '../../views/home/job_listing/job_detail_sheet.dart';
 import '../image/icon_image.dart';
-
 import '../../../model/job.dart';
 
 class JobListItem extends StatelessWidget {

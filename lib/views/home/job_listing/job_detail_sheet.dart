@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../../theme/colors.dart';
-import '../../../../theme/icons.dart';
-import '../../../../theme/dimensions.dart';
+import '../../../../util/theme/colors.dart';
+import '../../../../util/theme/icons.dart';
+import '../../../../util/theme/dimens.dart';
 
 import './job_application/job_application_1_screen.dart';
-import '../../../reusable_comps/input/filled_button.dart';
-import '../../../reusable_comps/input/icon_box_button.dart';
-import '../../../reusable_comps/visual/logo_image.dart';
-
+import '../../../widgets/input/filled_button.dart';
+import '../../../widgets/input/icon_box_button.dart';
+import '../../../widgets/image/logo_image.dart';
 import '../../../../model/job.dart';
-
-import '../../../../model_data/user_model_data.dart';
+import '../../../../model/data/user_model_data.dart';
 
 class JobDetailSheet extends StatelessWidget {
   // -- Props --
@@ -160,7 +158,6 @@ class JobDetailSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final height = MediaQuery.of(context).size.height;
     final theme = Theme.of(context);
     final userModelData = Provider.of<UserModelData>(context);
 

@@ -101,11 +101,11 @@ class Jobs {
       description:
           "We're looking for a talented Lead Product Designer to join our rapidly growing design team to create intuitive and effective experiences for our customers as...",
       requirements: [
-        'Developing product design concepts from client requirements',
-        'Developing product design concepts from client requirements',
-        'Developing product design concepts from client requirements',
-        'Developing product design concepts from client requirements',
-        'Developing product design concepts from client requirements'
+            dummyDesc,
+       dummyDesc,
+       dummyDesc,
+       dummyDesc,
+       dummyDesc
       ],
       datePosted: DateTime(2023, 9, 6),
       salary: const Salary(
