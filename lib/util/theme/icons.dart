@@ -66,7 +66,7 @@ extension AppImagesExtension on AppImages {
   String get path {
     switch (this) {
       case AppImages.face:
-        return 'assets/images/slack_logo.svg';
+        return 'assets/images/face.jpg';
     }
   }
 }

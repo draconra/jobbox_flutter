@@ -17,12 +17,20 @@ dependencies:
   flutter_svg: ^2.0.9
   intl: ^0.18.1
   provider: ^6.1.1
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: launcher_icon
+  ios: true
+  image_path: assets/images/jobbox_app_logo.png
+  min_sdk_android: 21
 
 flutter:
   uses-material-design: true
@@ -32,4 +40,19 @@ flutter:
 
   assets:
     # Add assets from the images directory to the application.
-    - assets/
+    - assets/icons/magnifying_glass_solid.svg
+    - assets/icons/rectangle_list_regular.svg
+    - assets/icons/pen_solid.svg
+    - assets/icons/user_solid.svg
+    - assets/icons/sack_dollar_solid.svg
+    - assets/icons/bookmark_regular.svg
+    - assets/icons/xmark_solid.svg
+    - assets/icons/chevron_left.svg
+    - assets/icons/plus_solid.svg
+    - assets/icons/file_solid.svg
+    - assets/logos/amazon_logo.svg
+    - assets/logos/asana_logo.svg
+    - assets/logos/crypto_dot_com_logo.svg
+    - assets/logos/google_logo.svg
+    - assets/logos/slack_logo.svg
+    - assets/images/face.jpg
