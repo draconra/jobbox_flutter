@@ -45,7 +45,7 @@ class Jobs {
         maximum: 8000,
       ),
       country: const Country(name: 'Singapore', direction: Directions.east),
-      isNearby: false,
+      isNearby: true,
     ),
     Job(
       id: 'j2',

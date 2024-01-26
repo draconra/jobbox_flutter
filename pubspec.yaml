@@ -1,5 +1,5 @@
-name: flutter_jobbox
-description: A new Flutter project.
+name: JobBox
+description: An app for search the job
 
 # Prevent accidental publishing to pub.dev.
 publish_to: 'none'

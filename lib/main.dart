@@ -37,6 +37,7 @@ class JobboxApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Jobbox',
+        debugShowCheckedModeBanner: false,
         home: const Home(),
         themeMode: ThemeMode.light,
         theme: ThemeData(
