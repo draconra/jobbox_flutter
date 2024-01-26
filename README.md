@@ -47,6 +47,7 @@ Follow these steps to set up and run the project on your local machine.
 ## Project Architecture
 **Data Source**
 - Data : the data that we get is in here 
+
 **View Model**
 - Jobs Model Data : in here we set for jobs data to render it
 - User Model Data : in here we set for user data to render it
