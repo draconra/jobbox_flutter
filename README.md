@@ -1,30 +1,55 @@
-# flutter_jobbox
+# Job Box App
+Flutter assessment to code from the given UI designs. This application for user to search for the job and apply for it, it has features:
+- Login
+- Register
+- Job Listing
+- Nearby Job Listing
+- Applied Jobs
+- Profile
 
-A new Flutter project.
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Architecture](#project-architecture)
 
 ## Getting Started
+### Usage for Frontend 
+In this project, the source codes can be found under `/lib`
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+No data inputs are required, as the codes are purely for UI purposes. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Run the app in Debug Mode
 
-## Assets
+2. **Login** / **Sign Up** with the default user credentials (Adrian Severin)
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+* *Note: Text Fields are disabled, thus it can't be changed*
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+3. Apply Jobs in **Job Listing Section**
 
-## Localization
+* *Note: You may toggle edit mode and switches to include resume*
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
+4. Check **Applied Jobs** Section for the recently added applied job.
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+5. Go to **Profile** to view personal information about the default user
+
+### Project Set Up
+Follow these steps to set up and run the project on your local machine.
+
+1. **Clone the project**:
+   `git clone https://github.com/draconra/jobbox_flutter`
+2. **Install Dependencies for Flutter**:
+   `flutter pub get`
+
+## Usage
+ - Run Flutter on Emulator**:
+   `flutter run -d emulator-5554`
+     
+## Project Architecture
+**Data Source**
+- Data : the data that we get is in here 
+**View Model**
+- Jobs Model Data : in here we set for jobs data to render it
+- User Model Data : in here we set for user data to render it
+
+**UI**
+- Views : in here we set the screen
